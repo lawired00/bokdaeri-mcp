@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.bokdaeri/consultation",
+  "title": "복대리 · Bokdaeri",
+  "description": "Bokdaeri (복대리) connects people with lawyers in South Korea for user-confirmed consultations.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bokdaeri.com/mcp/agent"
+    }
+  ],
+  "websiteUrl": "https://mcp.bokdaeri.com/agents",
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "description_ko": "복대리는 법률 상담을 원하는 이용자와 한국 변호사를 연결합니다. 상담 내용을 정리하고 복대리 웹에서 국내 010 휴대전화 인증·필수 동의·최종 확인 후 신청합니다. 본인 상담의 진행 상태와 연결된 변호사 정보를 확인하고, 수락 전 가능한 상담은 수정·철회할 수 있습니다. 첫 상담 문의에는 비용이 없으며 추가 상담·사건 의뢰 비용은 변호사와 협의합니다. 변호사 수락은 실제 통화·상담 완료를 의미하지 않습니다.",
+      "authentication": {
+        "type": "oauth2",
+        "issuer": "https://mcp.bokdaeri.com",
+        "registrationEndpoint": "https://mcp.bokdaeri.com/reg"
+      },
+      "region": "KR",
+      "requiredPhone": "South Korean 010 mobile number",
+      "languages": [
+        "ko-KR"
+      ],
+      "firstInquiryFee": "No fee; further consultation or representation by agreement with the lawyer",
+      "privacyPolicyUrl": "https://mcp.bokdaeri.com/agents/policies/privacy",
+      "termsOfServiceUrl": "https://mcp.bokdaeri.com/agents/policies/terms",
+      "supportEmail": "admin@lawired.co.kr"
+    }
+  }
+}
