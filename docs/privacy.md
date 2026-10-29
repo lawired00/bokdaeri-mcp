@@ -1,6 +1,6 @@
 # Privacy and verification · 개인정보·인증 안내
 
-[English](../README.md) · [한국어](../README.ko.md) · [Official privacy policy](https://mcp.bokdaeri.com/agents/policies/privacy)
+[English](../README.en.md) · [한국어](../README.ko.md) · [Official privacy policy](https://mcp.bokdaeri.com/agents/policies/privacy)
 
 ## Before submission
 

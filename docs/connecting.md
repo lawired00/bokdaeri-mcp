@@ -1,6 +1,6 @@
 # Connect to Bokdaeri · 복대리 연결 방법
 
-[English overview](../README.md) · [한국어 소개](../README.ko.md) · [Compatibility](compatibility.md)
+[English overview](../README.en.md) · [한국어 소개](../README.ko.md) · [Compatibility](compatibility.md)
 
 ## Connection details · 연결 정보
 

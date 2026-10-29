@@ -1,6 +1,6 @@
 # Compatibility and check scope · 환경별 확인 범위
 
-[English](../README.md) · [한국어](../README.ko.md) · [Connection guide](connecting.md)
+[English](../README.en.md) · [한국어](../README.ko.md) · [Connection guide](connecting.md)
 
 The connection checks below were performed on 2026-10-28. They describe specific capabilities, not a guarantee for every version, AI model or product account. This documentation package was prepared on 2026-10-29.
 

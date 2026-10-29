@@ -1,6 +1,6 @@
 # FAQ · 자주 묻는 질문
 
-[English](../README.md) · [한국어](../README.ko.md) · [Connection guide](connecting.md)
+[English](../README.en.md) · [한국어](../README.ko.md) · [Connection guide](connecting.md)
 
 ### Is this a server I install? · 서버를 설치해야 하나요?
 

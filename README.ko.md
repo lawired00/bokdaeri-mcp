@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/bokdaeri.png" alt="복대리" width="56" height="56"></p>
 <h1 align="center">복대리 MCP</h1>
-<p align="center"><a href="README.md">English</a> · <strong>한국어</strong></p>
+<p align="center"><a href="README.en.md">English</a> · <strong>한국어</strong></p>
 
 <p align="center"><strong>AI에서 시작하는 변호사 상담</strong><br>상담 내용을 준비하고, 신청부터 변호사 연결 결과까지 확인하세요.</p>
 

@@ -1,6 +1,6 @@
 # Usage examples · 사용 예시
 
-[English](../README.md) · [한국어](../README.ko.md) · [Connection guide](connecting.md)
+[English](../README.en.md) · [한국어](../README.ko.md) · [Connection guide](connecting.md)
 
 The examples below describe fictional situations. They are prompts for a connected client, not pre-submitted consultations. Replace them with your own facts and review the final content, fees and consent before submitting. Do not put contact details or other unnecessary personal information into the consultation summary.
 
