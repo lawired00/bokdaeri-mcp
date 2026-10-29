@@ -4,7 +4,7 @@
 
 <p align="center"><strong>Start a lawyer consultation with your AI assistant.</strong><br>Prepare your request, submit it and check the connection result.</p>
 
-<p align="center"><a href="docs/connecting.md">Connection guide</a> &nbsp; · &nbsp; <a href="https://mcp.bokdaeri.com/consult">Request a consultation</a> &nbsp; · &nbsp; <a href="https://mcp.bokdaeri.com/agents">Agent guide</a></p>
+<p align="center"><a href="docs/en/connecting.md">Connection guide</a> &nbsp; · &nbsp; <a href="https://mcp.bokdaeri.com/consult">Request a consultation</a> &nbsp; · &nbsp; <a href="https://mcp.bokdaeri.com/agents">Agent guide</a></p>
 
 <p align="center"><img src="assets/consultation.webp" alt="A lawyer and a client discussing a consultation across a table" width="720"></p>
 
@@ -22,7 +22,7 @@ https://mcp.bokdaeri.com/mcp/agent
 
 Your client must support remote MCP and OAuth. Supported clients can use dynamic client registration (DCR), without a separate manual registration request.
 
-[Step-by-step setup](docs/connecting.md) · [Compatibility and check scope](docs/compatibility.md)
+[Step-by-step setup](docs/en/connecting.md) · [Compatibility and check scope](docs/en/compatibility.md)
 
 **Using a browser-capable agent?** It can follow the [agent guide](https://mcp.bokdaeri.com/agents) to use the web application without an MCP connection.
 
@@ -34,7 +34,7 @@ Your client must support remote MCP and OAuth. Supported clients can use dynamic
 2. **Review and submit** — Complete phone verification, required consent and final confirmation in Bokdaeri's web flow.
 3. **Check the result** — Confirm receipt and wait for the lawyer who accepts your request to contact you.
 
-Drafting a request or verifying a phone number does not submit it. After submission, ask your assistant to check its status or update the details. [Status, editing and withdrawal examples](docs/usage.md)
+Drafting a request or verifying a phone number does not submit it. After submission, ask your assistant to check its status or update the details. [Status, editing and withdrawal examples](docs/en/usage.md)
 
 ## Before you use it
 
@@ -42,7 +42,9 @@ Drafting a request or verifying a phone number does not submit it. After submiss
 - **Information sharing:** Participating lawyers review the consultation details. The contact number is provided to the lawyer who accepts the request.
 - **Status:** Results reflect the state at the time of retrieval. Acceptance does not mean a call or consultation has already taken place.
 
-See the [connection guide](docs/connecting.md) and [FAQ](docs/faq.md) for verification requirements, service availability and supported clients.
+See the [connection guide](docs/en/connecting.md) and [FAQ](docs/en/faq.md) for verification requirements, service availability and supported clients.
+
+[Privacy and verification](docs/en/privacy.md)
 
 ---
 
@@ -50,4 +52,4 @@ See the [connection guide](docs/connecting.md) and [FAQ](docs/faq.md) for verifi
 
 [Terms of service](https://mcp.bokdaeri.com/agents/policies/terms) · [Privacy policy](https://mcp.bokdaeri.com/agents/policies/privacy)
 
-This repository contains usage guidance and connection information, not service source code. Do not post consultation details or authentication information in public issues.
+This repository contains usage guidance and connection information, not service source code. For help, use the official support link above.

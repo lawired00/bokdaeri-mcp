@@ -44,10 +44,12 @@ https://mcp.bokdaeri.com/mcp/agent
 
 인증 조건과 지원 환경은 [연결 안내](docs/connecting.md)와 [자주 묻는 질문](docs/faq.md)에서 확인해 주세요.
 
+[인증·개인정보 안내](docs/privacy.md)
+
 ---
 
 [공식 서비스 소개](https://mcp.bokdaeri.com/ai) · [공식 MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/com.bokdaeri%2Fconsultation/versions/1.0.1) · [이용 문의](mailto:admin@lawired.co.kr)
 
 [이용약관](https://mcp.bokdaeri.com/agents/policies/terms) · [개인정보처리방침](https://mcp.bokdaeri.com/agents/policies/privacy)
 
-이 저장소는 이용 안내와 연결 정보만 제공합니다. 서비스 소스코드는 포함하지 않습니다. 공개 이슈에는 상담 내용이나 인증정보를 남기지 마세요.
+이 저장소는 이용 안내와 연결 정보만 제공합니다. 서비스 소스코드는 포함하지 않습니다. 이용 문의는 위 공식 문의 경로를 이용해 주세요.

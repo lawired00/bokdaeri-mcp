@@ -1,24 +1,18 @@
-# Compatibility and check scope · 환경별 확인 범위
+# 지원 환경과 확인 범위
 
-[English](../README.en.md) · [한국어](../README.ko.md) · [Connection guide](connecting.md)
-
-The connection checks below were performed on 2026-10-28. They describe specific capabilities, not a guarantee for every version, AI model or product account. This documentation package was prepared on 2026-10-29.
+[처음으로](../README.md) · [English](en/compatibility.md)
 
 아래 연결 확인은 2026-10-28에 수행한 특정 기능의 검증입니다. 모든 버전·모델·계정 환경의 동작을 보장하지 않습니다. 이 안내 자료의 준비 기준일은 2026-10-29입니다.
 
-| Client / 환경 | Checked / 확인한 것 | Scope / 범위·제한 |
+| 환경 | 확인한 것 | 범위·제한 |
 | --- | --- | --- |
-| Claude Code 2.1.220 | OAuth connection, token refresh, authenticated tool discovery / 연결·갱신·인증 후 도구 목록 | Hosted-service connection checked; no live consultation or message sent in this check / 운영 연결 확인, 이 시험에서 실제 상담·문자 발송 없음 |
-| MCP Inspector 2.12.0 | Remote initialization and public tool discovery / 원격 초기화·공개 도구 발견 | Discovery check, not proof of the complete consultation flow / 상담 전 과정 검증 아님 |
-| Official MCP Client SDK 2.3.1 | New DCR registration, PKCE OAuth, authenticated discovery and revocation / 신규 DCR·OAuth·도구 발견·토큰 철회 | New hosted connection checked; no consultation tools executed / 운영 신규 연결 확인, 상담 도구 실행 없음 |
-| DCR/Claude Code isolated workflow checks | Authentication and consultation-management permission boundaries / 인증·상담 관리 권한 경계 | Synthetic local data and simulated delivery; not real legal requests / 합성 데이터·모의 발송, 실제 상담 아님 |
-| Google/Gemini | Product-specific integration remains unverified / 실제 제품 통합 검증 전 | This page is not a Google listing or approval claim / Google 등록·승인 완료를 뜻하지 않음 |
-| Other MCP clients | Requires remote MCP and compatible OAuth / 원격 MCP·OAuth 필요 | No blanket compatibility claim / 일괄 호환 보장 없음 |
-
-Browser automation by Dot, Hermes or similar agents is a separate usage route. A successful browser-agent test does not prove that the product supports this remote MCP connection. Conversely, a missing browser tool does not mean an MCP connection is unavailable. Follow the client's actual capabilities and the [official guide](https://mcp.bokdaeri.com/agents).
+| Claude Code 2.1.220 | 연결·갱신·인증 후 도구 목록 | 운영 연결 확인, 이 시험에서 실제 상담·문자 발송 없음 |
+| MCP Inspector 2.12.0 | 원격 초기화·공개 도구 발견 | 상담 전 과정 검증 아님 |
+| Official MCP Client SDK 2.3.1 | 신규 DCR·OAuth·도구 발견·토큰 철회 | 운영 신규 연결 확인, 상담 도구 실행 없음 |
+| DCR·Claude Code 격리 시험 | 인증·상담 관리 권한 경계 | 합성 데이터·모의 발송, 실제 상담 아님 |
+| Google/Gemini | 실제 제품 통합 검증 전 | Google 등록·승인 완료를 뜻하지 않음 |
+| 기타 MCP 클라이언트 | 원격 MCP·OAuth 필요 | 일괄 호환 보장 없음 |
 
 Dot·Hermes 같은 에이전트의 브라우저 조작과 이 원격 MCP 연결은 별개입니다. 브라우저 시험 통과를 해당 제품의 MCP 지원 검증으로 표현하지 않습니다. 사용하는 클라이언트의 실제 기능과 [공식 이용 안내](https://mcp.bokdaeri.com/agents)를 확인하세요.
-
-OAuth discovery and DCR support do not establish Google-specific account-linking compatibility. The platform's client registration, callback and token-refresh behavior still require a product-specific check. No change to existing security or other channels is implied by this documentation.
 
 OAuth 정보 발견·DCR 지원만으로 Google의 계정 연결 호환성을 확정하지 않습니다. 해당 플랫폼의 등록·콜백·토큰 갱신 동작은 별도 확인이 필요합니다. 이 문서가 기존 보안 정책이나 다른 채널 설정을 변경하지는 않습니다.
